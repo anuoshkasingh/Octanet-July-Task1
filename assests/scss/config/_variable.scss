@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
-:root{
+:root {
     --header-height: 3rem;
-    
+
     /*========== Colors ==========*/
     --hue-color: 206;
-    
+
     --black-color: hsl(var(--hue-color), 4%, 4%);
     --black-color-alt: hsl(var(--hue-color), 4%, 8%);
     --title-color: hsl(var(--hue-color), 4%, 95%);
@@ -19,10 +19,10 @@
     --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
     --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
     --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
-    
+
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
-    
+
     --biggest-font-size: 5rem;
     --bigger-font-size: 3.5rem;
     --big-font-size: 2.5rem;
@@ -32,8 +32,8 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
     --text-line-height: 2rem;
-    
-    @media screen and (min-width: 968px){
+
+    @media screen and (min-width: 968px) {
         --biggest-font-size: 7.5rem;
         --bigger-font-size: 4.5rem;
         --big-font-size: 4rem;
@@ -49,11 +49,11 @@
     --font-semi-bold: 600;
 
     /*========== Margenes Bottom ==========*/
-    --mb-0-5: .5rem; 
-    --mb-0-75: .75rem; 
-    --mb-1: 1rem; 
-    --mb-1-5: 1.5rem; 
-    --mb-2: 2rem; 
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
     --mb-2-5: 2.5rem;
 
     /*========== z index ==========*/

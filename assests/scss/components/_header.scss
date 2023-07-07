@@ -1,5 +1,5 @@
 /*=============== HEADER ===============*/
-.header{
+.header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -9,23 +9,25 @@
 }
 
 /*=============== NAV ===============*/
-.nav{
+.nav {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    &__logo{
+    &__logo {
         display: flex;
         width: 1.5rem;
     }
-    &__toggle{
+
+    &__toggle {
         font-size: 1.2rem;
         color: var(--white-color);
         cursor: pointer;
     }
-    &__menu{
-        @media screen and (max-width: 767px){
+
+    &__menu {
+        @media screen and (max-width: 767px) {
             position: fixed;
             background-color: var(--body-color);
             top: -100%;
@@ -35,13 +37,15 @@
             transition: .4s;
         }
     }
-    &__list{
+
+    &__list {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
     }
-    &__link{
+
+    &__link {
         color: var(--white-color);
         font-size: var(--h2-font-size);
         text-transform: uppercase;
@@ -52,14 +56,15 @@
         background-clip: text;
         transition: .4s;
 
-        &:hover{
+        &:hover {
             background: var(--white-color);
             color: transparent;
-            -webkit-background-clip: text;  
+            -webkit-background-clip: text;
             background-clip: text;
         }
     }
-    &__close{
+
+    &__close {
         position: absolute;
         font-size: 1.5rem;
         top: 1rem;
@@ -70,7 +75,7 @@
 }
 
 /* show menu */
-.show-menu{
+.show-menu {
     top: 0;
 }
 
